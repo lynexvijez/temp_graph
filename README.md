@@ -1,54 +1,15 @@
-📘 README – Daily Temperature Line Graph
+#temp_graph
+📘 README – Daily Temperature Line Graph...
 🌤 Project Overview
 This script plots daily temperature changes using a simple line graph. It visualizes how temperatures vary over a range of days, helping you analyze trends like warming or cooling over time.
 
 🧰 Requirements
 Python 3.x
-
 Matplotlib
-
 You can install Matplotlib using:
-
-bash
-Copy
-Edit
 pip install matplotlib
-📜 Code
-python
-Copy
-Edit
-import matplotlib.pyplot as plt
-
-# Example data
-days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-temperatures = [22, 24, 23, 25, 26, 27, 24]
-
-# Plotting the data
-plt.plot(days, temperatures, marker='o', color='skyblue', linestyle='-', linewidth=2)
-
-# Adding labels and title
-plt.title('Daily Temperature Over One Week')
-plt.xlabel('Day')
-plt.ylabel('Temperature (°C)')
-
-# Optional: grid and tighter layout
-plt.grid(True)
-plt.tight_layout()
-
-# Display the graph
-plt.show()
-📈 Output
-The graph shows a line chart with:
-
-X-axis: Days of the week
-
-Y-axis: Temperatures in °C
-
-Points are connected with a smooth line, showing daily changes clearly.
 
 📝 Notes
 You can replace the temperatures list with your actual data.
-
-The marker='o' helps highlight each day’s temperature.
-
+The marker='^' helps highlight each day’s temperature.
 You can customize the colors, labels, and data to suit different periods or datasets.
