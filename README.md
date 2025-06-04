@@ -13,3 +13,5 @@ pip install matplotlib
 You can replace the temperatures list with your actual data.
 The marker='^' helps highlight each day’s temperature.
 You can customize the colors, labels, and data to suit different periods or datasets.
+![image](https://github.com/user-attachments/assets/17c47274-af51-487e-9171-6432de6e6e2e)
+
